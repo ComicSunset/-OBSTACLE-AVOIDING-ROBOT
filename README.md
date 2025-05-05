@@ -6,6 +6,9 @@
 The system is built on a lightweight yet robust chassis, driven by DC motors controlled through an L298N motor driver module. A Bluetooth module enables seamless communication between the robot and the mobile app, offering an interactive and user-friendly control interface. The MIT App features directional controls, a stop button, and an auto-mode toggle for switching between modes on the fly.
 This project demonstrates the integration of hardware and software to create a smart mobility solution, ideal for educational, surveillance, and exploration applications. It emphasizes low-cost implementation, modular design, and expandable architecture, making it a scalable foundation for future enhancements such as GPS tracking, voice control, and AI-based path planning. The SmartBot is a step toward accessible robotics, providing hands-on experience with embedded systems, real-time control, and mobile-based automation.
 
-![image](https://github.com/user-attachments/assets/d23b5e67-be71-4e4e-a68d-2e65fdaf1e26)
+![image](https://github.com/user-attachments/assets/2ecca8f5-ce30-4278-8475-98a949e98b53)
+
+  
+
 
 
