@@ -9,13 +9,58 @@ This project bridges embedded systems and real-time navigation logic to build a 
 
 ![image](https://github.com/user-attachments/assets/2ecca8f5-ce30-4278-8475-98a949e98b53)
 
+# 🚀PROJECT FEATURES – RoboRover AI
+
+🔁 Dual-Mode Operation
+
+Switch between Autonomous and Manual (App-controlled) modes using a mobile app.
+
+📏 Real-Time Obstacle Detection
+
+Uses HC-SR04 Ultrasonic Sensor to measure distance and detect nearby obstacles accurately.
+
+🔄 Smart Angle-Based Navigation
+
+Automatically calculates the turning angle based on the size and distance of the obstacle to avoid it optimally.
+
+📡 Bluetooth App Control
+
+Use a custom MIT App Inventor Android app to manually control movement (forward, backward, left, right, stop).
+
+💡 Distance Display & Decision Feedback
+
+The robot’s logic adapts based on how close or large an obstacle is, mimicking rover-style decision-making.
+
+⚡ Efficient Power Management
+
+Powered by a rechargeable battery pack with efficient motor control via the L298N driver.
+
+🛠 Modular and Scalable Design
+
+Built on a customizable chassis with modular wiring and code for easy upgrades (like GPS, AI camera, voice control).
+
+📱 Mobile App with Clean UI
+
+Intuitive control buttons and status display designed using MIT App Inventor, with real-time command response.
+
+🎮 Smooth Motor Control with L298N
+
+PWM-enabled motor speed control and direction logic for precise movement and turning.
+
+👨‍💻 Open-Source and Beginner-Friendly
+
+Fully documented with Arduino code, circuit diagrams, and app files for easy replication and learning.
+
+
 # HARDWARE SETUP
 
 ![image](https://github.com/user-attachments/assets/acc8cd31-c4e8-4bef-9e2e-c33f590692c3)
 
+
 # WORKING FLOW(SIMPLE DIAGRAM)
 
 ![image](https://github.com/user-attachments/assets/2c2e3fc9-8e97-47ad-972a-d1b0993ee54b)
+
 
 # 🔌HARDWARE COMPNENETS USED 
 
@@ -67,6 +112,7 @@ What they are: Electrical connecting tools.
 
 Why they're used: To connect components without soldering and make the prototype easier to test and modify.
 
+
 # 💻 SODTWARE TOOLS USED
 
 1. Arduino IDE
@@ -86,6 +132,15 @@ Why it's used:
 To design and build a custom Android app that controls the robot via Bluetooth.
 Offers simple drag-and-drop blocks to create buttons (forward, backward, stop, auto-mode).
 Communicates with the HC-05/HC-06 Bluetooth module using serial strings.
+
+# Screenshots of App UI
+
+![WhatsApp Image 2025-05-05 at 12 04 42_845a8a2b](https://github.com/user-attachments/assets/ca41d521-93cf-4b9e-ba91-5393c87b0ad7)
+
+
+
+
+
 
 
 
