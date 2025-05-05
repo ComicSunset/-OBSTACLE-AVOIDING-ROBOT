@@ -17,47 +17,76 @@ This project bridges embedded systems and real-time navigation logic to build a 
 
 ![image](https://github.com/user-attachments/assets/2c2e3fc9-8e97-47ad-972a-d1b0993ee54b)
 
-# HARDWARE COMPNENETS USED 
+# 🔌HARDWARE COMPNENETS USED 
 
 1. Arduino Uno (or Nano)
+   
 What it is: A microcontroller board based on the ATmega328P.
 
 Why it's used: It acts as the brain of the robot, processing inputs (like distance from the ultrasonic sensor) and controlling outputs (like motor movement). It runs the main logic for obstacle detection and movement control.
 
 2. Ultrasonic Sensor (HC-SR04)
+   
 What it is: A distance-measuring sensor that uses sound waves to detect obstacles.
 
 Why it's used: It detects obstacles in front of the robot by calculating the distance to them. Based on this data, the robot decides whether to move forward, turn, or stop.
 
 3. L298N Motor Driver Module
+   
 What it is: A dual H-bridge motor driver that controls the speed and direction of DC motors.
 
 Why it's used: The Arduino alone can’t provide enough current to run motors. The L298N safely controls motor direction and speed using PWM signals from the Arduino.
 
 4. 2 DC Motors + Wheels
+   
 What they are: Small electric motors with attached wheels.
 
 Why they're used: They provide locomotion to the robot, enabling it to move forward, backward, and turn based on control signals.
 
 5. Chassis (Robot Frame)
+   
 What it is: The physical frame that holds all components together.
 
 Why it's used: It provides mechanical structure and stability to the robot, ensuring all components are securely mounted and properly balanced.
 
 6. Bluetooth Module (HC-05 / HC-06)
+   
 What it is: A wireless serial communication module using Bluetooth.
 
 Why it's used: It allows the robot to be remotely controlled via a smartphone using a custom app made with MIT App Inventor. It receives commands like forward (F), backward (B), etc.
 
 7. Battery Pack (Li-ion or 9V with holder)
+   
 What it is: A portable power supply.
 
 Why it's used: It provides electrical power to the entire robot, including the Arduino, sensors, and motors. The choice depends on the desired runtime and current requirements.
 
 8. Jump Wires / Breadboard (optional)
+   
 What they are: Electrical connecting tools.
 
 Why they're used: To connect components without soldering and make the prototype easier to test and modify.
+
+# 💻 SODTWARE TOOLS USED
+
+1. Arduino IDE
+   
+What it is: An open-source software used for writing, compiling, and uploading code to Arduino boards.
+
+Why it's used:
+To write and upload the robot's logic/code (obstacle detection, motor control, angle calculation, mode switching).
+Provides serial monitoring for testing sensors and debugging.
+Supports libraries for ultrasonic sensors and motor drivers.
+
+2. MIT App Inventor
+   
+What it is: A web-based platform developed by MIT to create Android applications using a visual, block-based interface.
+
+Why it's used:
+To design and build a custom Android app that controls the robot via Bluetooth.
+Offers simple drag-and-drop blocks to create buttons (forward, backward, stop, auto-mode).
+Communicates with the HC-05/HC-06 Bluetooth module using serial strings.
+
 
 
 
